@@ -1,0 +1,46 @@
+@import "bourbon/bourbon";
+@import "base/base";
+
+footer[role=banner] {
+    @include clearfix;
+    border-top: $base-border;
+    background-color: $white;
+    //max-width: 960px;
+    margin: 0 auto;
+
+    #logo {
+        fill: $warm-brown-dark;
+        overflow: hidden;
+
+        @media (min-width: 640px) {
+            max-height: 150px;
+        }
+    }
+}
+
+main {
+    max-width: 72ch;
+    @include margin(null auto);
+
+    > article {
+        padding: 1em;
+
+        > section {
+            @include clearfix;
+            margin: 1em auto;
+            padding: 1em;
+            background-color: $white;
+            color: $warm-brown-dark;
+            //border: $base-border;
+            border-radius: $base-border-radius;
+
+            &.introduction {
+                border: none;
+            }
+
+            &.search-committee > section {
+                text-align: left;
+            }
+        }
+    }
+}
