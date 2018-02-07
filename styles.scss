@@ -34,12 +34,11 @@ main {
             //border: $base-border;
             border-radius: $base-border-radius;
 
-            &.introduction {
-                border: none;
-            }
-
-            &.search-committee > section {
-                text-align: left;
+            img {
+                border: $base-border;
+                @include margin(null null $small-spacing null);
+                @include padding($small-spacing null);
+                @include border-width(1px 0);
             }
         }
     }

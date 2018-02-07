@@ -181,7 +181,7 @@ h6 {
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 1.5em 0 0.75em 0; }
 
 h1 {
   font-size: 3.8146972656em;
@@ -196,13 +196,13 @@ h3 {
   text-align: center; }
 
 h4 {
-  font-size: 1.953125em; }
-
-h5 {
   font-size: 1.5625em; }
 
-h6 {
+h5 {
   font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
 
 p {
   margin: 0 0 0.75em; }
@@ -259,9 +259,11 @@ main {
         clear: both;
         content: "";
         display: block; }
-      main > article > section.introduction {
-        border: none; }
-      main > article > section.search-committee > section {
-        text-align: left; }
+      main > article > section img {
+        border: 1px solid #bdacac;
+        margin-bottom: 0.75em;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        border-width: 1px 0; }
 
 /*# sourceMappingURL=styles.css.map */
