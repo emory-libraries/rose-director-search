@@ -27,7 +27,7 @@ $base-font-color: $black;
 $action-color: $emory-blue;
 $accent-color: $warm-brown-dark;
 // Border
-$base-border-color: $warm-brown-light;
+$base-border-color: $accent-color;
 $base-border: 1px solid $base-border-color;
 $base-border-radius: 6px;
 
@@ -42,5 +42,13 @@ $focus-outline: $focus-outline-width solid $focus-outline-color;
 $focus-outline-offset: 2px;
 
 // Animations
-$base-duration: 150ms;
+$base-duration: 300ms;
 $base-timing: ease;
+
+// Breakpoints
+$x-small: 360px;
+$small: 640px;
+$medium: 800px;
+$large: 1024px;
+$x-large: 1200px;
+

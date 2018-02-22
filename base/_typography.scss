@@ -2,6 +2,8 @@ html {
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: 100%;
+  font-variant-ligatures: normal;
+  font-kerning: auto;
   line-height: $base-line-height;
 }
 
@@ -18,32 +20,64 @@ h6 {
 }
 
 h1 {
-  font-size: modular-scale(6);
-  text-align: center;
-}
-
-h2 {
-  font-size: modular-scale(5);
-  text-align: center;
-}
-
-h3 {
   font-size: modular-scale(4);
   text-align: center;
 }
 
-h4 {
+h2 {
+  margin-top: $small-spacing;
+  font-size: modular-scale(3);
+  text-align: center;
+}
+
+h3 {
   font-size: modular-scale(2);
+}
+
+h4 {
+  font-size: modular-scale(1);
   //font-style: italic;
   //font-weight: 400;
 }
 
 h5 {
-  font-size: modular-scale(1);
+  font-size: modular-scale(0);
 }
 
 h6 {
-  font-size: modular-scale(0);
+  font-size: modular-scale(-1);
+}
+
+@media (min-wdith: 800px){
+  h1 {
+    font-size: modular-scale(5);
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: $small-spacing;
+    font-size: modular-scale(4);
+    text-align: center;
+  }
+
+  h3 {
+    font-size: modular-scale(3);
+    text-align: center;
+  }
+
+  h4 {
+    font-size: modular-scale(2);
+    //font-style: italic;
+    //font-weight: 400;
+  }
+
+  h5 {
+    font-size: modular-scale(1);
+  }
+
+  h6 {
+    font-size: modular-scale(0);
+  }
 }
 
 p {
@@ -56,9 +90,9 @@ code {
 
 a {
   color: $action-color;
+  transition: color $base-duration $base-timing;
   text-decoration-skip: ink;
   text-decoration-skip-ink: auto;
-  transition: color $base-duration $base-timing;
 
   &:hover {
     color: shade($action-color, 25%);
