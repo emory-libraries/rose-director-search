@@ -78,7 +78,7 @@
                     </section>
                     <section>
                         <h2>Deepika Bahri</h2>
-                        <p class="title">Assoc. Professor, English, Emory College of Arts and Sciences</p>
+                        <p class="title">Professor, English, Emory College of Arts and Sciences</p>
                         <p><a href="mailto:deepika.bahri@emory.edu">deepika.bahri@emory.edu</a></p>
                     </section>
                     <section>
