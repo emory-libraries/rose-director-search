@@ -19,7 +19,7 @@
         <main>
             <article id="home">
                 <h1>Application Procedures</h1>
-                <p>Interested candidates should <a href="position-description.html">review the application requirements</a> and <a href="https://sjobs.brassring.com/1033/ASP/TG/cim_jobdetail.asp?partnerid=25066&siteid=5449&areq=79503br">apply online</a>, Requisition/Job Posting #79503.</p>
+                <p>Interested candidates should <a href="position-description.php">review the application requirements</a> and <a href="https://sjobs.brassring.com/1033/ASP/TG/cim_jobdetail.asp?partnerid=25066&siteid=5449&areq=79503br">apply online</a>, Requisition/Job Posting #79503.</p>
                 <p>Applications may be submitted as Word or PDF attachments and must include:</p>
                 <ol>
                     <li>Cover letter of application describing qualifications and experience;</li>
